@@ -1,0 +1,15 @@
+<div class="card" style="width: 18rem; height: 23rem; margin-top: 20px;">
+    <img [src]="dog.image" class="card-img-top" [alt]="dog.breed" style="height: 12rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{dog.breed}}</h5>
+      <p class="card-text">Size: {{dog.size}}</p>
+      <div class="button-overlay">
+        <button class="btn btn-primary btn-sm me-1" (click)="onEdit()">
+            Edit
+        </button>
+        <button class="btn btn-danger btn-sm" (click)="onDelete()">
+            Delete
+        </button>
+    </div>
+    </div>
+  </div>

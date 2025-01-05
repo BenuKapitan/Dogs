@@ -1,0 +1,7 @@
+<h1>Doggos</h1>
+<div class="container flex-wrap d-flex justify-content-around">
+    <app-doglist (edit)="dogEdit($event)" (newDog)="BtnNewDog()"></app-doglist>
+</div>
+@if (showNewDogForm) {
+    <app-dog-form [dog]="SelectedDog" (save)="saveDog($event)" (cancel)="cancel()"></app-dog-form>
+}

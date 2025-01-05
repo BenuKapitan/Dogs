@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Brat&display=swap');
+
+h1 {
+  font-family: 'Brat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+<form (ngSubmit)="saveDog()" class="centered-form">
+  <div class="form-group">
+    <label for="breed">Breed</label>
+    <select id="breed" class="form-control" (change)="dog.breed = GetValue($event)" name="breed" required>
+      <option *ngFor="let breed of breeds" [value]="breed">{{ breed }}</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="size">Size</label>
+    <input type="text" id="size" class="form-control" (input)="dog.size =  GetValue($event)" name="size" required>
+  </div>
+  <div class="form-group">
+    <label for="image">Image URL</label>
+    <input type="text" id="image" class="form-control" (input)="dog.image =  GetValue($event)" name="image" placeholder="Enter image url" required>
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="saveDog()">Save</button>
+  <button type="button" class="btn btn-secondary" (click)="cancelDog()">Cancel</button>
+</form>

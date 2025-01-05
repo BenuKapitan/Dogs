@@ -1,0 +1,64 @@
+{
+  "dogs": [
+    {
+      "id": "1",
+      "breed": "Golden Retriever",
+      "size": "Large",
+      "image": "https://www.goldenretri.hu/wp-content/uploads/2023/04/pexels-b-1.jpg"
+    },
+    {
+      "id": "2",
+      "breed": "Labrador Retriever",
+      "size": "Large",
+      "image": "https://www.zooplus.hu/magazin/wp-content/uploads/2018/10/Labrador-Retriever.jpg"
+    },
+    {
+      "id": "3",
+      "breed": "Beagle",
+      "size": "Medium",
+      "image": "https://www.zooplus.hu/magazin/wp-content/uploads/2017/03/beagle-welpe.jpg"
+    },
+    {
+      "id": "5",
+      "breed": "Bulldog",
+      "size": "Medium",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJ9T4d9rUiWMrBiauPBU3QEVuL1ny8aDglg&s"
+    },
+    {
+      "id": "6",
+      "breed": "German Shepherd",
+      "size": "Large",
+      "image": "https://breed-assets.wisdompanel.com/dog/german-shepherd-dog/German_Shepherd_Dog1.png"
+    },
+    {
+      "id": "7",
+      "breed": "Boxer",
+      "size": "Large",
+      "image": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11181204/202104iStock-934411614.jpg"
+    },
+    {
+      "id": "8",
+      "breed": "Cocker Spaniel",
+      "size": "Medium",
+      "image": "https://cdn.shopify.com/s/files/1/0053/9649/6456/files/RYGLEN-40_2048x2048.jpg?v=1628021432"
+    },
+    {
+      "id": "9",
+      "breed": "Doberman",
+      "size": "Large",
+      "image": "https://dogx.hu/wp-content/uploads/2023/03/Dobermann-fajtaleiras-800x520.jpg"
+    },
+    {
+      "id": "52e4",
+      "breed": "Labrador Retriever",
+      "size": "Quite Large",
+      "image": "https://i1.sndcdn.com/artworks-YDgU6KNf10zHzK95-XXS6RQ-t1080x1080.jpg"
+    },
+    {
+      "id": "c5ff",
+      "breed": [],
+      "size": "Big Guy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN-p2XOT4ks6ZjiZuhhZWUMcvGvvb-woRgrw&s"
+    }
+  ]
+}
