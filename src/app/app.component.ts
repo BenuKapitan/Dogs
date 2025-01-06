@@ -24,6 +24,7 @@ export class AppComponent {
   dogEdit(dog: Dog) {
     this.showNewDogForm = true;
     this.SelectedDog = dog;
+    this.newDog = false;
   }
   cancel() {
     this.SelectedDog = DogService.emptyDog();
