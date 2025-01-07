@@ -5,4 +5,4 @@ RUN npm install
 RUN npm run build
 
 FROM httpd
-COPY --from=node /app/dist/dogs/browser /usr/local/apache2/htdocs
+COPY --from=node /app/dist/Dogs/browser /usr/local/apache2/htdocs
